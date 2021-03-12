@@ -1,0 +1,316 @@
+/* Font face  */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+/* font face end  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::: First Section Start ::::::::::::::::::::::::::::::::::::: */
+
+.first_section_main_div_bg_img{
+    background-image: url(img/banner/home-banner.png);
+    background-repeat: no-repeat;
+    margin-top: 0px;
+}
+.first_section_main_First_div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin: 15px 0px; */
+    padding: 0 6rem;
+    justify-content: space-between;
+}
+.first_section_main_First_div div{
+    margin-top: 7rem;
+   
+}
+.first_section_left_div{
+    margin-top: 15rem !important;
+}
+.first_sec_txt1{
+    font-family: 'Redressed', cursive;
+}
+.first_sec_txt2{
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: bold;
+    font-size: 5em;
+}
+.first_sec_txt3{
+    font-family: 'Redressed', cursive;
+}
+.first_sec_btn{
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #4458dc;
+    color: white !important;
+    font-family:'Akaya Telivigala', cursive ;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.first_section_right_div img{
+    width: 37rem;
+    padding: 10px;  
+}
+
+/* :::::::::::::::::::::::::::::::::::::::::::::: Second Section Start :::::::::::::::::::::::::::::::: */
+
+.section_second_main_div{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 0 6rem;
+
+}
+.second_sec_right_div h1{
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 4em !important;
+    letter-spacing: 0.3em;
+    margin-top: 4rem;
+    padding: 5px;
+
+}
+.second_sec_right_div p{
+    padding: 5px;
+    font-family: 'Akaya Telivigala', cursive;
+
+}
+.second_sec_left_div img{
+    width: 35rem;
+    padding: 15px;
+}
+/* ::::::::::::::::::::::::::::::::::::::::::::; Third Section start ::::::::::::::::::::::::::::::: */
+
+/* .third_sec_main_div{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.third_sec_left_main_div{
+    width: 60%;
+}
+.third_sec_ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: none !important;
+}
+
+.third_sec_ul li{
+    border: 1px solid;
+    list-style: none;
+    width: 30%;
+    height: 100px;
+    margin: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    transition: transform .5s;
+
+}
+.third_sec_ul li:hover{
+   
+  transform: scale(1.2); 
+}
+.third_sec_ul img{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    
+} */
+/* ::::::::::::: Third Section Right Div  */
+/* .third_sec_main_div{
+
+    padding: 45px;
+}
+.third_sec_bg_div{
+    background-color: rgb(245, 241, 245);
+    width: 20rem;
+    height: 25rem;
+    font-family:'Akaya Telivigala', cursive ;
+}
+.third_sec_right_main_div{
+    position: relative;
+}
+.third_sec_right_contant{
+    display: flex;
+
+}
+.third_sec_right_bg_img{
+    background-image: url(img/client-info-bg.png) ;
+    width: 170px;
+    height: 16em;
+    padding: 2rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -25%;
+    top: 15px;
+   
+}
+
+.third_sec_right_contant h1{
+    font-size: 8em;
+    font-family:'Akaya Telivigala', cursive ;
+}
+.third_sec_right_contant p{
+    font-size: 2em;
+    margin-top: 40px;
+    font-family:'Akaya Telivigala', cursive ;
+} */
+/* ::::::::::::::::::::::::::::::::::::::::::::::: Third section end :::::::::::::::::::::::::::::::::::; */
+
+
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::: Responsive :::::::::::::::::::::::: */
+
+@media(max-width:1167px){
+    .first_section_left_div{
+        margin-top: 2rem !important;
+    }
+    .first_section_right_div img{
+        width: auto;
+        margin: 0 auto !important;
+        padding: 10px; }
+    .first_section_right_div{
+        display: flex;
+        justify-content: center;
+        width: 100%;}
+        .section_second_main_div{
+            padding: 0 2rem;
+        
+        }
+        .section_second_main_div{
+          display: flex;
+          flex-direction: column;  
+          
+      }
+     
+        .second_sec_left_div img{
+            width: auto;
+            padding: 10px;
+        }
+        .second_sec_left_div{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        /* ::::::::::::::::::::::::::::::: Third sec :::::::::::::::/ */
+        .third_sec_main_div{
+            flex-direction: column;
+            padding: 35px;
+        }
+        .third_sec_left_main_div{
+            width: 100%;
+           margin-bottom: 15px;
+        }
+
+
+    }
+  @media(max-width:767px){
+    .first_section_right_div img{
+        width: 30rem;
+        padding: 10px; }
+    .first_section_main_First_div{
+        padding: 0 2rem; }
+        .second_sec_left_div img{
+            width: 30rem;
+            padding: 10px;
+        }
+        .section_second_main_div{
+         
+          padding: 0 2rem !important;
+      
+      }
+      }
+  
+  @media(max-width:510px){
+    .first_section_right_div img{
+        width: 25rem;
+        padding: 10px;}
+        .second_sec_left_div img{
+            width: 20rem;
+            padding: 10px;
+  
+        }
+    }
+    @media(max-width:568px){
+      .second_sec_right_div h1 {
+        font-family: 'Akaya Telivigala', cursive;
+        font-size: 40px !important;
+        letter-spacing: 0.1em;
+        margin-top: 4rem;
+        padding: 5px;
+    }}
+    @media(max-width:518px){
+        .first_section_right_div img{
+            width: 23rem !important;
+            padding: 10px;}
+            .second_sec_left_div img{
+                width: 20rem;
+                height: 20rem;
+                padding: 10px;
+            }
+        }
+  @media(max-width:422px){
+    .first_section_right_div img{
+        width: 12rem;
+        padding: 22px; }}
+       
+        @media(max-width:397px){
+            .first_section_right_div img{
+                width: 18rem !important;
+                padding: 12px; }}
+  
+
+                @media(max-width:700px){
+                    .third_sec_ul li{
+                        width: 38% !important;
+                    }
+                }
+                @media(max-width:420px){
+                    .third_sec_ul li{
+                        width: 98% !important;
+                        height: 120px;
+                    }
+                }
+
+                @media(max-width:400px){
+                    .third_sec_bg_div{
+                        background-color: rgb(245, 241, 245);
+                        width: auto !important;
+                        height: 25rem;
+                        
+                    }
+                    .third_sec_right_contant h1{
+                        font-size: 6em;
+                        font-family:'Akaya Telivigala', cursive ;
+                    }
+                    .third_sec_right_contant p{
+                        font-size: 1.8em;
+                        margin-top: 40px;
+                        font-family:'Akaya Telivigala', cursive ;
+                    }
+                    .third_sec_right_bg_img{
+                        left: -10%;
+                        top: 65px;
+                       
+                    }
+                }
+
+
+                .third_sec_bg_div{
+                    background-color: rgb(245, 241, 245);
+                    width: 20rem;
+                    height: 25rem;
+                    font-family:'Akaya Telivigala', cursive ;
+                }

@@ -1,0 +1,5 @@
+@media(max-width:700px){
+    .third_sec_ul li{
+        width: 38% !important;
+    }
+}
